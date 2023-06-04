@@ -1,0 +1,244 @@
+div{
+    text-align: center;
+}
+#logo{
+    width: 130px;
+    height: auto;
+}
+.navnames{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: white;
+}
+#row1{
+    height: 150px;
+    background-color: #1c1c1c;
+}
+.imeg{
+    width: 450px;
+    height: auto;
+    border-radius: 50%;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+}
+.imeg:hover{
+    transform: scale(1.1);
+}
+.fanknames{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    padding-top: 15px;
+    text-decoration: none;
+}
+#row2{
+    height: 850px;
+    background-color: rgb(240, 240, 240);
+}
+.indiv{
+    border-radius: 10%;
+    background-color: white;
+    width: 550px;
+    padding-top: 30px ;
+    margin: auto;
+    text-decoration: none;
+}
+#row3{
+    background-color: rgb(240, 240, 240);
+}
+#order{
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+#row4{
+    background-color: #333;
+}
+#from{
+    width: 600px;
+}
+#us{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.links{
+    color: #ccc;
+    text-decoration: none;
+}
+a:hover{
+    color: #ccc;
+    text-decoration: none;
+}
+#col4{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+#row5{
+    padding-top: 20px;
+    background-color: rgb(240, 240, 240);
+}
+#row6{
+    height: 850px;    
+    background-color: rgb(240, 240, 240);
+}
+#row7{
+    background-color: #1c1c1c;
+    height: 200px;
+}
+.imag{
+    width: 50px;
+    padding-top: 30%;
+}
+.footer{
+    margin-right: 20% ;
+    margin-left: 20%;
+}
+#logo2{
+    width: 100px;
+    height: auto;
+    padding-top: 4%;
+}
+#us2{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 2.5%;
+    color: white;
+}
+#row8{
+    background-color: #1c1c1c;
+    height: 100px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#outrow{
+    background-color: #1c1c1c;
+    padding: 4%;
+    height: 180px;
+}
+#info{
+    text-decoration: none;
+    color: #ccc;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1812px){
+    #from{
+        width: 100%
+    }
+    .indiv{
+        width: 100%;
+    }
+    .imeg{
+        width: 100%;
+    }
+
+
+}
+@media screen and (max-width: 1456px){
+    .imeg{
+        width: 100%;
+
+    }
+    #from{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px){
+    #from{
+        width: 400px;
+    }
+    .indiv{
+        border-radius: 10%;
+        background-color: white;
+        width: 350px;
+        padding-top: 30px ;
+        margin: auto;
+        width: 100%;
+    }
+    .imeg{
+        width: 250px;
+        height: auto;
+        border-radius: 50%;
+        transition: 0.5s ease-in-out;
+    }
+    #row6{
+        padding-bottom: 190%;
+    }
+    #logo{
+        width: 80px;
+    }
+    .navnames{
+        font-size: 18px;
+    }
+    #us2{
+        padding-top: 1%;
+    }
+    #outrow{
+        padding: 0%;
+    }
+    .imag{
+        padding-top: 5%;
+    }
+    #row8{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 531px){
+    #row6{
+        padding-bottom: 280%;
+    }
+    #row8{
+        height: 250px;
+    }
+    #outrow{
+        height: 260px;
+    }
+
+
+
+}
+@media screen and (max-width: 600px){
+    #row6{
+        padding-bottom: 270%;
+    }
+}
+@media screen and (max-width: 420px){
+    #row6{
+        padding-bottom: 350%;
+    }
+    .imag{
+        padding-top: 5%;
+        width: 40px;
+    }
+    #row8{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 394px){
+    #row6{
+        padding-bottom: 400%;
+    }
+    #from{
+        width: 300px;
+    }
+
+
+}
+@media screen and (max-width: 280px){
+    #row6{
+        padding-bottom: 520%;
+    }
+    #from{
+        width: 200px;
+    }
+    #row2{
+        height: 1500px;
+    }
+}
